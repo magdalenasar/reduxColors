@@ -9,13 +9,25 @@
   <body>
     <div id="app"></div>
 
-    <ul id="ul"></ul>
+    <ul class="todos"></ul>
 
     <button id="inc">+</button>
     <button id="dec">-</button>
 
-    <form action="">
+    <form class="todos" action="">
       <input type="text" name="veld" />
+    </form>
+
+    <hr />
+
+    <h1>Oefening: Color picker</h1>
+
+    <ul class="kleuren"></ul>
+
+    <form class="kleuren" action="">
+      <input type="text" name="kleur-naam" />
+      <input type="color" name="color" />
+      <button id="voegKleur" type="submit">voeg kleur toe</button>
     </form>
 
     <script type="module" src="/main.js"></script>

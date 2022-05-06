@@ -6,3 +6,35 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
+ul{
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+li div{
+  width: 30px;
+  height: 30px;
+  color: transparent;
+  margin-right: 20px;
+ 
+}
+
+
+form button {
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  display: block;
+  font-size: 15px;
+  border-radius: 5px;
+}

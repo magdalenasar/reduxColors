@@ -16,7 +16,10 @@ function render() {
 
   document.querySelector("ul.kleuren").innerHTML = store
     .getState()
-    .kleurState.map((kleur) => `<li>${kleur.hexcode} ${kleur.kleur}</li>`)
+    .kleurState.map(
+      (kleur) =>
+        `<li><div style="background-color: ${kleur.hexcode}"></div> <span style="color:${kleur.hexcode}">${kleur.kleur}</span></li>`
+    )
     .join("");
 }
 
@@ -42,9 +45,8 @@ form.onsubmit = function (e) {
 //  colors:
 
 const kleurForm = document.querySelector("form.kleuren");
-kleurForm.onsubmit = function (e) {
+document.querySelector("#voegKleur").addEventListener("click", function (e) {
   e.preventDefault();
-  store.dispatch(voegKleur(kleurForm.elements["kleur-naam"].value));
+  store.dispatch(voegKleur(kleurForm.elements["kleur-veld"].value));
   kleurForm.reset();
-};
-document.querySelector("#voegKleur").onclick = function () {};
+});

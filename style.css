@@ -7,19 +7,16 @@
   margin-top: 60px;
 }
 
-
-ul{
+ul.lijst>li { 
   list-style-type: none;
-}
-
-li {
-  display: flex;
+  display: flex; 
   align-items: center;
   gap: 5px;
   margin-top: 20px;
-}
+} 
 
-li div{
+
+li div {
   width: 30px;
   height: 30px;
   color: transparent;
@@ -29,12 +26,17 @@ li div{
 
 
 form button {
-  background-color: pink;
+  background-color: black;
   border: none;
   color: white;
-  padding: 15px 15px;
+  padding: 5px 5px;
   text-align: center;
   display: block;
   font-size: 15px;
   border-radius: 5px;
+} 
+
+#kprev {
+  display: inline-block;
+  width:100px;
 }

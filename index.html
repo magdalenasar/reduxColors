@@ -7,27 +7,28 @@
     <title>Vite App</title>
   </head>
   <body>
+    <h1>Counter</h1>
     <div id="app"></div>
-
-    <ul class="todos"></ul>
-
     <button id="inc">+</button>
     <button id="dec">-</button>
 
-    <form class="todos" action="">
+    <hr />
+    <h1>Todos:</h1>
+    <ul class="todos"></ul>
+    <form class="todos">
       <input type="text" name="veld" />
     </form>
     <br />
     <hr />
 
-    <h1>Oefening: Color picker</h1>
+    <h1>Oefening: Colorpicker</h1>
 
-    <ul class="kleuren"></ul>
+    <ul id="kleuren"></ul>
 
-    <form class="kleuren">
-      <input type="text" name="kleur-veld" />
-      <input type="color" name="kleur-picker" id="kleur-picker" />
-      <button id="voegKleur" type="submit">voeg kleur toe</button>
+    <form id="kform">
+      <input type="text" name="kleur" />
+      <input type="color" name="hexcode" />
+      <button>voeg kleur toe</button>
     </form>
 
     <script type="module" src="/main.js"></script>

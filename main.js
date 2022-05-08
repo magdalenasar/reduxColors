@@ -50,9 +50,8 @@ form.onsubmit = function (e) {
   form.reset();
 };
 
-////////////UI LOGICA VOOR KLEUREN:
-/***
- * This example demonstrates how to dynamically update a colorpicker value with oninput.
+/*
+ *UI LOGICA VOOR KLEUREN:
  */
 document.querySelector("ul#kleuren").addEventListener("change", (e) => {
   if (e.target.classList.contains("kpicker")) {

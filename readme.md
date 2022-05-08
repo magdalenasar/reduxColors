@@ -2,8 +2,6 @@
 
 [Zie de project](https://magdalena-redux_colorpicker_oef.surge.sh/)
 
-![image]()
-
 > Tools:
 
 1. Vanilla JS

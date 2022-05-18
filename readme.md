@@ -16,6 +16,6 @@
    - Redux Toolkit:
      - store, actions, reducers, slices
      - combining multiple reducers
-3. CSS
+3. SCSS
 
 - This example demonstrates how to dynamically update a colorpicker value with onchange.

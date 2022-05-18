@@ -1,6 +1,6 @@
 # Vanilla JS project | Redux Toolkit
 
-[Zie de project](https://magdalena-redux_colorpicker_oef.surge.sh/)
+[Zie het project](https://magdalena-redux_colorpicker_oef.surge.sh/)
 
 
 <img width="333" alt="Screenshot 2022-05-08 at 17 38 41" src="https://user-images.githubusercontent.com/91531129/167304977-ae30c8a2-e34c-4e1e-abdd-393f5759f65a.png">
